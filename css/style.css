@@ -1,40 +1,48 @@
+/* Hex color codes for the background and text color */
+/* Background color: #F9F9F9 */
+/* Text color: #383838 */
+/* Hyperlink color: #FC5800 */
+/* Font family: "Noto Sans", sans-serif */
+
+
+
+
 body {
-    background-color: #ede8f5;
+    background-color: #F9F9F9;
     font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.6;
-    color: black;
 }
+
+
 
 h1, h2, h3, h4 {
     line-height: 1.4;
+    font-family: "Exo 2", sans-serif;
   }
   h1 {
     font-size: 2.50em;
-    font-weight: 700;
+    font-weight: 300;
   }
   
   h2 {
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
   }
   
   h3 {
     font-size: 1.50em;
-    font-weight: 400;
+    font-weight: 300;
   }
   h4 {
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
   }
 
 p {
-    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;    
     line-height: 1.6;
-    font-weight: 300;/* Removed invalid property 'line-weight' */
-    font-style: italic;
+    font-weight: 300;
+    font-style: normal;
 }
 
 img {
