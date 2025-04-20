@@ -61,3 +61,47 @@ img {
         color: #4361ee;
         text-decoration: none;
     }
+
+
+
+
+
+
+
+
+
+
+
+    .button {
+        display: inline-block; 
+        background-color: #506aff;
+        color: #ffffff; 
+        font-weight: 400;
+        padding: 10px;
+        border-radius: 3px;
+        border-bottom: 2px solid #9978db;
+        transition: 0.2s opacity;
+      }
+
+      .button:hover {
+        background-color: #4cc9f0;
+        opacity: 0.8; 
+        text-decoration: none;
+      }
+
+      .button.contact {
+        display: inline-block; 
+        background-color: #50ff8d;
+        color: #ffffff; 
+        font-weight: 400;
+        padding: 10px;
+        border-radius: 3px;
+        border-bottom: 2px solid #9978db;
+        transition: 0.2s opacity;
+      }
+
+      .button.contact:hover {
+        background-color: #b1f04c;
+        opacity: 0.8; 
+        text-decoration: none;
+      }
