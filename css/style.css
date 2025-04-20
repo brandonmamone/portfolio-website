@@ -1,6 +1,11 @@
 body {
     background-color: lightgrey;
     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    color: black;
 }
 
 h1 {
