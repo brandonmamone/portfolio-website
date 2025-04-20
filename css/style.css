@@ -32,6 +32,11 @@ h1, h2, h3, h4 {
 
 p {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.6;
+    font-weight: 300;/* Removed invalid property 'line-weight' */
     font-style: italic;
 }
+
+img {
+    width: 100%;
+  }
