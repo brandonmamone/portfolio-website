@@ -47,9 +47,34 @@ p {
 
 header {
   background-color: #ffffff;
+  border: solid #FFFFFF 1px; 
+	box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.1)  ;
+  position: fixed;
+  width: 100%;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: auto;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0;
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FC5800;
 }
 
 span {
@@ -60,32 +85,8 @@ span {
   font-style: normal;
 }
 
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav > ul > li {
-  display: inline-block
-}
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FC5800;
-}
-
-header {
-	width: [object Object]px; 
-	height: [object Object]px; 
-	background: #ffffff; 
-	border: solid #BDBDBD 0; 
-	box-shadow: 4px 5px 49px rgba(0, 0, 0, 0.3)  ; 
-	-webkit-box-shadow: 4px 5px 49px rgba(0, 0, 0, 0.3)  ; 
-	-moz-box-shadow: 4px 5px 49px rgba(0, 0, 0, 0.3)  ; 
-}
-
 main {
-  padding-top: 35px;
+  padding-top: 80px;
 }
 
 
@@ -152,6 +153,9 @@ img {
 
 .container {
    padding: 0 15px;
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
  }
 
  .row {
@@ -169,13 +173,10 @@ img {
     max-width: 250px;
 }  
 
-#hero {
-  background-color: #ffffff;
-}
 
 #hero {
   background-color: #ffffff;
-  padding: 20px 0;
+  padding: 0;
   display: inline-block;
   width: 100%;
 }
@@ -187,3 +188,12 @@ img {
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 640px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1440px) {
+}
