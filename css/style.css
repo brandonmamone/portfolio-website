@@ -54,7 +54,7 @@ header {
   position: fixed;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin: auto;
 }
 
@@ -189,6 +189,17 @@ img {
 }
 
 @media only screen and (min-width: 640px) {
+
+  header {
+    text-align: unset;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
 
 }
 
