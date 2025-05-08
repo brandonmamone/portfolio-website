@@ -118,41 +118,27 @@ img {
         text-decoration: none;
     }
     
-    .button {
-        display: inline-block; 
-        background-color: #383838;
-        color: #ffffff; 
-        font-weight: 400;
-        padding: 10px;
-        border-radius: 3px;
-        border-bottom: 2px solid #191919;
-        transition: 0.2s opacity;
-      }
-
-      .button:hover {
-        background-color: #FC5800;
-        opacity: 0.8; 
-        text-decoration: none;
-      }
-
-      .button.contact {
-        display: inline-block; 
-        background-color: #383838;
-        color: #ffffff; 
-        font-weight: 400;
-        padding: 10px;
-        border-radius: 3px;
-        border-bottom: 2px solid #191919;
-        transition: 0.2s opacity;
-      }
-
-      .button.contact:hover {
-        background-color: #FC5800;
-        opacity: 0.8; 
-        text-decoration: none;
-      }
 
 /* Layout styling */
+
+.button,
+.button:visited {
+  display: inline-block; 
+  background-color: #383838;
+  color: #ffffff; 
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #191919;
+  transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #FC5800;
+    text-decoration: none;
+    opacity: 0.8;
+}
 
 #work .row { 
   padding-bottom: 25px; 
