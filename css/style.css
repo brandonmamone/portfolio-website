@@ -171,6 +171,10 @@ img {
   text-align: left;
 }
 
+#work h2 {
+  text-align: center;
+}
+
 #hero {
   background-color: #ffffff;
   padding: 0;
