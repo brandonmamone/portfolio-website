@@ -245,7 +245,7 @@ img {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #ebebe4;
+  border-top: .5px solid #f3cab4;
 }
 
 .navtoggle.responsive li:last-child  {
