@@ -60,12 +60,10 @@ header {
 }
 
 nav > ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0 0;
 }
-
-
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -232,6 +230,26 @@ img {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+  text-align: center;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #ebebe4;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 /* animation */
@@ -277,20 +295,11 @@ img {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+
 @media only screen and (min-width: 641px) {
 
   header {
     text-align: unset;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-  nav > ul > li {
-    display: inline-block;
   }
 
   main {
@@ -322,16 +331,12 @@ img {
     clear: both;
     display: table;
   }
-  
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
 
 }
 
 /* Responsive design for larger screens */
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 1024px) {
 
   header {
     text-align: unset;
@@ -342,13 +347,21 @@ img {
     float: right;
     margin-top: 4px;
   }
+  
+  nav > ul > li {
+    display: inline-block;
+  }
+  
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   main {
     padding-top: 99px;
-  }
-
-  .navtoggle li:last-child {
-    display: none;
   }
 
   #hero {
@@ -386,6 +399,8 @@ img {
     clear: both;
     display: table;
   }
+
+
 
 }
 
