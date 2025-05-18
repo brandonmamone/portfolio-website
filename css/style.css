@@ -55,7 +55,6 @@ header {
 	-moz-box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.1)  ;
   position: fixed;
   width: 100%;
-  text-align: center;
   padding: 20px;
   margin: auto;
 }
@@ -64,13 +63,9 @@ nav > ul {
   list-style: none;
   padding: 0;
   margin: 0 0;
-  display: inline-block;
-  width: 100%;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -89,7 +84,7 @@ span {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 56px;
 }
 
 footer {
@@ -224,6 +219,20 @@ img {
   height: auto;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
 
 /* animation */
 
@@ -268,7 +277,7 @@ img {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
 
   header {
     text-align: unset;
@@ -278,6 +287,10 @@ img {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
   }
 
   main {
@@ -309,12 +322,16 @@ img {
     clear: both;
     display: table;
   }
+  
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
 }
 
 /* Responsive design for larger screens */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 641px) {
 
   header {
     text-align: unset;
@@ -328,6 +345,10 @@ img {
 
   main {
     padding-top: 99px;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   #hero {
