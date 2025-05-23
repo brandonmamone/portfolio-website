@@ -69,7 +69,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FC5800;
+  color: #CA4700;
 }
 
 
@@ -96,7 +96,7 @@ img {
   }
 
   a {
-    color: #FC5800;
+    color: #CA4700;
     text-decoration: none;
   }
     a:visited {
@@ -108,11 +108,11 @@ img {
           text-decoration: underline;    
     }
     a:focus {
-      color: #FC5800;
+      color: #CA4700;
       text-decoration: none;
     }
     a:active {
-        color: #FC5800;
+        color: #CA4700;
         text-decoration: none;
     }
     
@@ -256,13 +256,13 @@ img {
 
 @keyframes color-change {
   from {fill: #edc655;}
-  to {fill: #f76414;}
+  to {fill: #CA4700;}
 }
 
 @keyframes color-change {
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  100% {fill: #CA4700;}
 }
 
 .sun {
