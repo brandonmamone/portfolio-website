@@ -75,7 +75,7 @@ nav > ul > li > a {
 
 span {
   font-family: "Noto Sans", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;    
   font-weight: 400;
   font-style: normal;
@@ -160,7 +160,7 @@ img {
 }
 
 #hero h1 {
-  text-align: center;
+  text-align: left;
   font-size: 2.0em; 
 }
 
@@ -173,7 +173,7 @@ img {
 }
 
 #work h2 {
-  text-align: center;
+  text-align: left;
 }
 
 #hero {
@@ -250,6 +250,11 @@ img {
 
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
+}
+
+.mainlogo{
+  width: 170px;
+  height: 230px;
 }
 
 /* animation */
