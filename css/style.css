@@ -13,6 +13,10 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
+footer {
+  text-align: center;
+}
+
 h1, h2, h3, h4 {
     line-height: 1.4;
     font-family: "Noto Sans", sans-serif;
@@ -85,12 +89,6 @@ main {
   padding-top: 56px;
 }
 
-footer {
-  text-align: center;
-}
-
-
-
 img {
     width: 100%;
   }
@@ -138,6 +136,10 @@ img {
     opacity: 0.8;
 }
 
+.centered-line {
+  text-align: center;
+}
+
 #work .row { 
   padding-bottom: 25px; 
   border-bottom: 1px solid #4a4a4a; 
@@ -146,6 +148,13 @@ img {
 #about .row { 
   padding-bottom: 25px;
   margin: 0;
+}
+
+#about .personalimg {
+  padding: inherit;
+  margin:auto;
+  width: 200px;
+  display: block;
 }
 
 #animation .row {
@@ -182,11 +191,6 @@ img {
   display: inline-block;
   width: 100%;
 }
-
-#footer {
-  text-align: center;
-}
-
 
 .logo {
     max-width: 150px;
